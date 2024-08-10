@@ -965,7 +965,7 @@ Sleep and check if time have been accelerated
 BOOL accelerated_sleep()
 {
 	DWORD dwStart = 0, dwEnd = 0, dwDiff = 0;
-	DWORD dwMillisecondsToSleep = 60 * 1000;
+	DWORD dwMillisecondsToSleep = 6 * 1000;
 
 	/* Retrieves the number of milliseconds that have elapsed since the system was started */
 	dwStart = GetTickCount();
